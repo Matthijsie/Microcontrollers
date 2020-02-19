@@ -26,7 +26,6 @@ int main(void)
 	DDRB = 0xFF;
 	int index = 0;
 
-	
 	while (1)
 	{
 		while( pattern[index].delay != 0 ) {
